@@ -4,7 +4,6 @@ import android.graphics.PixelFormat;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,24 +30,6 @@ public class MapFragment extends Fragment implements LocationSource,AMapLocation
     private int currentColor;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        /*FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT);
-        FrameLayout fl = new FrameLayout(getActivity());
-        fl.setLayoutParams(params);
-        final int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources()
-                .getDisplayMetrics());
-        mapView= new MapView(getActivity());
-        mapView.onCreate(savedInstanceState);
-        params.setMargins(margin, margin, margin, margin);
-        mapView.setLayoutParams(params);
-        mapView.setBackgroundResource(R.drawable.background_card);
-        fl.addView(mapView);
-        RadioGroup radioGroup=new RadioGroup(getActivity());
-        radioGroup.setGravity(Gravity.TOP|Gravity.LEFT);
-        radioGroup.setOrientation(LinearLayout.HORIZONTAL);
-        radioGroup.setBackgroundColor(Color.GRAY);
-        fl.addView(radioGroup);*/
-        final int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources()
-                .getDisplayMetrics());
         View rootView=inflater.inflate(R.layout.locationmodesource_activity,container,false);
         mapView= (MapView) rootView.findViewById(R.id.map);
         mapView.onCreate(savedInstanceState);

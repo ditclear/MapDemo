@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.astuetz.PagerSlidingTabStrip;
+import com.igexin.sdk.PushManager;
 
 public class MainActivity extends FragmentActivity {
 
@@ -36,7 +37,7 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        PushManager.getInstance().initialize(this.getApplicationContext());
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         pager = (ViewPager) findViewById(R.id.pager);
         adapter = new MyPagerAdapter(getSupportFragmentManager());
@@ -163,7 +164,7 @@ public class MainActivity extends FragmentActivity {
 
     public class MyPagerAdapter extends FragmentPagerAdapter {
 
-        private final String[] TITLES = { "高德地图","云推送" };
+        private final String[] TITLES = { "高德地图","天气" };
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -184,6 +185,8 @@ public class MainActivity extends FragmentActivity {
             switch (position) {
                 case 0:
                     return new MapFragment();
+                case 1:
+                    return new WeatherFragment();
                 default:
                     return SuperAwesomeCardFragment.newInstance(position);
             }

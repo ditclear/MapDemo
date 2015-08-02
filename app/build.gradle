@@ -28,4 +28,6 @@ dependencies {
     compile files('libs/MapApiServices.jar')
     compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
     compile files('libs/zxing.jar')
+    compile files('libs/GetuiExt-2.0.3.jar')
+    compile files('libs/GetuiSDK2.6.0.0.jar')
 }
