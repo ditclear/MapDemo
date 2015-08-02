@@ -94,12 +94,10 @@
     <orderEntry type="library" exported="" name="butterknife-7.0.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="pagerslidingtabstrip-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="Android_2DMapApi_V2.5.0" level="project" />
-    <orderEntry type="library" exported="" name="AMap_Services_V2.5.0" level="project" />
     <orderEntry type="library" exported="" name="Android_Map_V2.5.0" level="project" />
     <orderEntry type="library" exported="" name="MapApiServices" level="project" />
+    <orderEntry type="library" exported="" name="zxing" level="project" />
     <orderEntry type="library" exported="" name="support-v4-22.0.0" level="project" />
-    <orderEntry type="library" exported="" name="Android_Location_V1.3.3" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="MapApiLocation_1.3.3" level="project" />
   </component>

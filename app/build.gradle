@@ -22,12 +22,10 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.0.0'
-    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile files('libs/MapApiLocation_1.3.3.jar')
     compile files('libs/Android_Map_V2.5.0.jar')
-    compile files('libs/AMap_Services_V2.5.0.jar')
-    compile files('libs/Android_Location_V1.3.3.jar')
     compile files('libs/MapApiServices.jar')
-    compile files('libs/Android_2DMapApi_V2.5.0.jar')
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile files('libs/zxing.jar')
 }

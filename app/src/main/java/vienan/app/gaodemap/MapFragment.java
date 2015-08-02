@@ -62,6 +62,7 @@ public class MapFragment extends Fragment implements LocationSource,AMapLocation
             aMap = mapView.getMap();
             setUpMap();
         }
+
         radioGroup.setOnCheckedChangeListener(this);
     }
     private void setUpMap() {

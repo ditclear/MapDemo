@@ -8,6 +8,12 @@
         android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/abc_searchview_description_search"/>
     <item
+        android:id="@+id/action_scanner"
+        android:icon="@drawable/ofm_qrcode_icon"
+        android:showAsAction="ifRoom"
+        android:title="scanner"
+        />
+    <item
         android:id="@+id/action_contact"
         android:icon="@drawable/ic_action_user"
         android:showAsAction="ifRoom|collapseActionView"

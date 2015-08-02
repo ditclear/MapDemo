@@ -1,5 +1,6 @@
 package vienan.app.gaodemap;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
@@ -66,7 +67,10 @@ public class MainActivity extends FragmentActivity {
                 QuickContactFragment dialog = new QuickContactFragment();
                 dialog.show(getSupportFragmentManager(), "QuickContactFragment");
                 return true;
-
+            case R.id.action_scanner:
+                Intent intent=new Intent(this,CaptureActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -159,7 +163,7 @@ public class MainActivity extends FragmentActivity {
 
     public class MyPagerAdapter extends FragmentPagerAdapter {
 
-        private final String[] TITLES = { "高德地图","支付宝" };
+        private final String[] TITLES = { "高德地图","云推送" };
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -180,8 +184,10 @@ public class MainActivity extends FragmentActivity {
             switch (position) {
                 case 0:
                     return new MapFragment();
+                default:
+                    return SuperAwesomeCardFragment.newInstance(position);
             }
-            return SuperAwesomeCardFragment.newInstance(1);
+
         }
     }
 
