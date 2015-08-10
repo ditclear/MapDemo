@@ -14,6 +14,7 @@ import com.amap.api.location.AMapLocationListener;
 import com.amap.api.location.LocationManagerProxy;
 import com.amap.api.location.LocationProviderProxy;
 import com.amap.api.maps.AMap;
+import com.amap.api.maps.AMapOptions;
 import com.amap.api.maps.LocationSource;
 import com.amap.api.maps.MapView;
 
@@ -50,12 +51,15 @@ public class MapFragment extends Fragment implements LocationSource,AMapLocation
     }
     private void setUpMap() {
         aMap.setLocationSource(this);// 设置定位监听
+        aMap.getUiSettings().setCompassEnabled(true);
+        aMap.getUiSettings().setLogoPosition(AMapOptions.LOGO_POSITION_BOTTOM_RIGHT);
         aMap.getUiSettings().setMyLocationButtonEnabled(true);// 设置默认定位按钮是否显示
         aMap.setMyLocationEnabled(true);// 设置为true表示显示定位层并可触发定位，false表示隐藏定位层并不可触发定位，默认是false
         // 设置定位的类型为定位模式：定位（AMap.LOCATION_TYPE_LOCATE）、跟随（AMap.LOCATION_TYPE_MAP_FOLLOW）
         // 地图根据面向方向旋转（AMap.LOCATION_TYPE_MAP_ROTATE）三种模式
         //设置定位的类型为定位模式 ，可以由定位、跟随或地图根据面向方向旋转几种
         // 设置定位的类型为定位模式
+
         aMap.setMyLocationType(AMap.LOCATION_TYPE_LOCATE);
     }
     @Override
