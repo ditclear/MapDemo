@@ -50,8 +50,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"/>
-        <activity android:name=".activity.CaptureActivity"/>
+        <activity android:name=".activity.MainActivity"
+            android:logo="@drawable/map"/>
+        <activity android:name=".activity.CaptureActivity"
+            android:logo="@drawable/map"/>
         <activity android:name=".activity.fragment.ResultActivity"/>
         <!--个推SDK配置开始-->
         <!-- 配置的第三方参数属性 -->
