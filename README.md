@@ -1,10 +1,6 @@
 # MapDemo
 
-![地图](map.jpg)
-
-![天气](weather.jpg)
-
-![二维码](zxing.jpg)
+![地图](map.jpg)  ![天气](weather.jpg)  ![二维码](zxing.jpg)
 
 - 加入了引导页,采用的[小红书欢迎引导第二版](https://github.com/w446108264/XhsWelcomeAnim)
 - 基于leancloud的登录注册功能
