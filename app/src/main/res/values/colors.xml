@@ -7,4 +7,11 @@
     <color name="white"> #FFFFFF</color>
     <color name="red"> #FF0000</color>
     <color name="darkyellow"> #FFCC33</color>
+    <color name="gray">#ACACAC</color>
+    <color name="base_gray">#363636</color>
+    <color name="base_gray_green">#56d292</color>
+    <color name="base_black_gray">#636363</color>
+
+    <color name="chb_text_color">#ff909090</color>
+    <color name="tab_message">#67da9f</color>
 </resources>

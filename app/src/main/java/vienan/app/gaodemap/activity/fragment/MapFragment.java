@@ -1,4 +1,4 @@
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity.fragment;
 
 import android.graphics.PixelFormat;
 import android.location.Location;
@@ -16,6 +16,8 @@ import com.amap.api.location.LocationProviderProxy;
 import com.amap.api.maps.AMap;
 import com.amap.api.maps.LocationSource;
 import com.amap.api.maps.MapView;
+
+import vienan.app.gaodemap.R;
 
 /**
  * Created by lenovo on 2015/7/31.

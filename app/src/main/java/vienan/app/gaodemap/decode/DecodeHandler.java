@@ -35,7 +35,7 @@ import com.google.zxing.common.HybridBinarizer;
 import java.io.ByteArrayOutputStream;
 import java.util.Map;
 
-import vienan.app.gaodemap.CaptureActivity;
+import vienan.app.gaodemap.activity.CaptureActivity;
 import vienan.app.gaodemap.R;
 
 public class DecodeHandler extends Handler {

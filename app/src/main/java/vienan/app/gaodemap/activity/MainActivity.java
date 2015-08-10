@@ -1,4 +1,4 @@
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -21,6 +21,12 @@ import android.view.View;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.igexin.sdk.PushManager;
+
+import vienan.app.gaodemap.R;
+import vienan.app.gaodemap.activity.fragment.MapFragment;
+import vienan.app.gaodemap.activity.fragment.QuickContactFragment;
+import vienan.app.gaodemap.activity.fragment.SuperAwesomeCardFragment;
+import vienan.app.gaodemap.activity.fragment.WeatherFragment;
 
 public class MainActivity extends FragmentActivity {
 

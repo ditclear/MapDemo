@@ -18,4 +18,10 @@
     <dimen name="location_margin_left">10dp</dimen>
     <dimen name="forcast_margin_vertical">25dp</dimen>
     <dimen name="forcast_content_margin_vertical">12dp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="margin_nomal">10dp</dimen>
 </resources>

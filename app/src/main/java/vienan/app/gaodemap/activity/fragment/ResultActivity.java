@@ -1,4 +1,4 @@
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity.fragment;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
+import vienan.app.gaodemap.R;
 import vienan.app.gaodemap.decode.DecodeThread;
 
 public class ResultActivity extends Activity {

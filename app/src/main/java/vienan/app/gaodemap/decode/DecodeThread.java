@@ -29,7 +29,7 @@ import java.util.EnumSet;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
-import vienan.app.gaodemap.CaptureActivity;
+import vienan.app.gaodemap.activity.CaptureActivity;
 
 /**
  * This thread does all the heavy lifting of decoding the images.

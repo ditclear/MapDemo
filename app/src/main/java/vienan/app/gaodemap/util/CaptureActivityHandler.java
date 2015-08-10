@@ -24,7 +24,7 @@ import android.os.Message;
 
 import com.google.zxing.Result;
 
-import vienan.app.gaodemap.CaptureActivity;
+import vienan.app.gaodemap.activity.CaptureActivity;
 import vienan.app.gaodemap.R;
 import vienan.app.gaodemap.camera.CameraManager;
 import vienan.app.gaodemap.decode.DecodeThread;

@@ -1,4 +1,4 @@
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity.fragment;
 
 import android.graphics.Point;
 import android.os.Build;
@@ -17,6 +17,8 @@ import android.widget.TextView;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.astuetz.PagerSlidingTabStrip.IconTabProvider;
+
+import vienan.app.gaodemap.R;
 
 public class QuickContactFragment extends DialogFragment {
 

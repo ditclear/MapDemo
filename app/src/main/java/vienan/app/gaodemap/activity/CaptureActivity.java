@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -37,6 +37,8 @@ import com.google.zxing.Result;
 import java.io.IOException;
 import java.lang.reflect.Field;
 
+import vienan.app.gaodemap.R;
+import vienan.app.gaodemap.activity.fragment.ResultActivity;
 import vienan.app.gaodemap.camera.CameraManager;
 import vienan.app.gaodemap.decode.DecodeThread;
 import vienan.app.gaodemap.util.BeepManager;

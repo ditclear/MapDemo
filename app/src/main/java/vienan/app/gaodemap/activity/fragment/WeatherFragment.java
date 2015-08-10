@@ -1,4 +1,4 @@
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -17,8 +17,10 @@ import com.amap.api.location.LocationManagerProxy;
 
 import java.util.List;
 
+import vienan.app.gaodemap.R;
+
 /**
- * Created by lenovo on 2015/8/2.
+ * Created by vienan on 2015/8/2.
  */
 public class WeatherFragment extends Fragment implements AMapLocalWeatherListener {
 

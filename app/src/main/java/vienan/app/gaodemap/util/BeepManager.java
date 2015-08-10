@@ -29,7 +29,7 @@ import android.util.Log;
 import java.io.Closeable;
 import java.io.IOException;
 
-import vienan.app.gaodemap.CaptureActivity;
+import vienan.app.gaodemap.activity.CaptureActivity;
 import vienan.app.gaodemap.R;
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package vienan.app.gaodemap;
+package vienan.app.gaodemap.activity.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -26,6 +26,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 import android.widget.TextView;
+
+import vienan.app.gaodemap.R;
 
 public class SuperAwesomeCardFragment extends Fragment {
 
